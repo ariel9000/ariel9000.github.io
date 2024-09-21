@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio web personal de Ariel Valle">
+    <title>Portafolio Web - Ariel Valle</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <hgroup>
+                <h1>ARIEL VALLE</h1>
+                <i>Desarrollador Fullstack</i>
+            </hgroup>
+        </div>
+        <div class="overlay"></div>
+    </header>
+    <section class="site">
+        <nav>
+            <a href="#about">Sobre mí</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+        <blockquote>
+            <!-- Sección de presentación -->
+            <section id="about">
+                <h2>Sobre mí</h2>
+                <p>Soy un desarrollador web con experiencia en diseño y programación.</p>
+                <p>Soy profesional egresado de la Universidad Mayor de San Andres.</p> 
+                <p>Me encanta crear sitios web atractivos y funcionales.</p>
+                <p>Tambien me gustan los videojuegos y el mundo del harware informatico.</p>
+            </section>
+
+            <!-- Sección de proyectos -->
+            <section id="projects">
+                <h2>Proyectos</h2>
+                <div class="project">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+                <div class="project">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+            </section>
+            <!-- Sección de contacto -->
+            <section id="contact">
+                <h2>Contacto</h2>
+                <form action="#" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ariel Valle</p>
+    </footer>
+
+    <!-- Conexión con el archivo JavaScript -->
+    <script src="index.js"></script>
+</body>
+
+</html>
