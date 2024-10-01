@@ -172,3 +172,27 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
+
+#about1 .about-content {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    background-color: var(--dark-gray);
+    padding: 3em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+#about1 .photo {
+    text-align: center;
+    width: 100%;
+}
+
+#about1 .photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--light-gray);
+    display: inline-block; /* Asegura que se alinee como un elemento en línea */
+}
