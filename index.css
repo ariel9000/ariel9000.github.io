@@ -20,7 +20,7 @@ header {
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: url(https://unsplash.imgix.net/45/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=857f07b76abac23a7fb7161cc7b12a46) center no-repeat;
+  background: url(img/portada.jpeg) center no-repeat;
   /* Image Credit: Unsplash.me */
   background-size: cover;
 }
@@ -136,6 +136,16 @@ footer {
     border-radius: 50%;
     border: 4px solid var(--light-gray);
     display: inline-block; /* Asegura que se alinee como un elemento en línea */
+}
+
+#about2{
+  background-color: #ffffff;
+  padding: 15px;  /* Ajusta el padding para reducir el espacio interno */
+  width: 70%;     /* Define el ancho del cuadro de texto (puedes usar px, %, em, etc.) */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
 }
 
 .project {
