@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Web Ariel Valle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilosPortafolio.css">
+</head>
+
+<body>
+    <header>
+        <h2>PORTAFOLIO</h2>
+        <nav>
+          <a href="#projects">Proyectos</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </header>
+    
+      <main class="container">
+        <section class="intro">
+          <img src="img/foto.png" alt="Profile Photo">
+          <div class="text">
+            <h1>Ariel Valle - Ingeniero en sistemas</h1>
+            <p>Soy un ingeniero de sistemas especializado en desarrollo de software, computación en la nube y arquitectura de redes.</p>
+            <button class="btn" onclick="location.href='#projects'">Ver Proyectos</button>
+          </div>
+        </section>
+    
+        <section class="about">
+            <h2 class="section-title">Sobre mi</h2>
+            <ul class="about-list">
+                <li>Soy un ingeniero de sistemas con experiencia, apasionado por diseñar e implementar soluciones eficientes, escalables y seguras. Tengo experiencia en programación, integración de sistemas, plataformas en la nube e infraestructura de red.</li>
+                <li>He tenido la oportunidad de dar un curso sobre redes sociales a docentes de la facultad de tecnología de la Universidad Mayor de San Andrés, lo que me ha permitido transmitir mi conocimiento y proporcionar nuevas herramientas para los participantes.</li>
+                <li>Estoy en la etapa final de mi carrera universitaria, con sólida formación técnica y motivación constante por seguir aprendiendo y creciendo profesionalmente.</li>
+            </ul>
+        </section>
+    
+        <section class="projects" id="projects">
+          <h2 class="section-title">Proyectos</h2>
+          <div class="project-list">
+            <div class="project">
+                <h3>E-Commerce Anime King</h3>
+                <p>E-comerce de una tienda de productos Anime con frontend, backend y base de datos.</p>
+                <a href="https://animekingbolivia.netlify.app/" target="_blank" rel="noopener">Ver Proyecto</a>
+                <ul class="tech-stack">
+                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>MySql</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Administrador de Finanzas</h3>
+                <p>Este es un conjunto de aplicaciones para administración de finanzas.</p>
+                <a href="https://ariel9000.github.io/sistemaFinanzas/" target="_blank" rel="noopener">Ver Proyecto</a>
+                <ul class="tech-stack">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Lista de Compras</h3>
+                <p>Un pequeño proyecto que genera una lista de compras.</p>
+                <a href="https://ariel9000.github.io/listaCompras/" target="_blank" rel="noopener">Ver Proyecto</a>
+                <ul class="tech-stack">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+          </div>
+        </section>
+    
+        <section class="contact" id="contact">
+          <h2 class="section-title">Contáctame</h2>
+          <form action="https://formspree.io/f/xvgazyjj" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Tu Nombre" required />
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required />
+            <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+          </form>
+        </section>
+      </main>
+    
+      <footer>
+        &copy; 2025 Portafolio Ariel Valle - Ingeniero en Sistemas. Todos los derechos reservados.
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
